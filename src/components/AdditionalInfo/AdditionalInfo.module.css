@@ -1,0 +1,10 @@
+.additional_info_title {
+  font-size: 2rem;
+  color: #ffcc00;
+  text-shadow: 2px 2px 10px rgba(255, 204, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.additional_info_link {
+  margin-right: 30px;
+}
