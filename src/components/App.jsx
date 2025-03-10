@@ -1,10 +1,12 @@
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { lazy } from "react";
 import { lazy, Suspense } from "react";
-import Navigation from "./Navigation/Navigation";
-import Cast from "./MovieCast/MovieCast";
+
 import Reviews from "./MovieReviews/MovieReviews";
+import Navigation from "./Navigation/Navigation";
+import Cast from "./MovieCast/MovieCast ";
 
 const HomePage = lazy(() => import("../pages/HomePage"));
 const MoviesPage = lazy(() => import("../pages/MoviesPage"));
